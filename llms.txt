@@ -1,0 +1,21 @@
+# Cloud Sync Handbook
+
+> A short, factual handbook for the Mega desktop app: what it syncs, which systems it runs on, what the free plan includes and how to schedule backups from the command line.
+
+Independent guides to Mega by Cloud Sync Handbook. Facts come from the vendor's pages on the date shown on each page.
+
+## Do it
+- [Download the Mega desktop app for Windows, macOS and Linux](https://mega-sync.github.io/download.html): Get the Mega desktop app download from the official site: version 6.7.0.3, supported systems, the free 20 GB account and four install steps.
+- [MEGAcmd backup and sync: schedule Mega backups from the command line](https://mega-sync.github.io/megacmd-backup.html): MEGAcmd backup and sync from the terminal: install, log in, schedule dated backups with a period and a copy count, and avoid losing the setup.
+
+## Decide
+- [Mega desktop app review: a generous free plan and real Linux support, with a few gaps](https://mega-sync.github.io/review.html): Mega desktop app review based on vendor documents: two way sync, backups, Linux support, the free 20 GB plan, limits and a score of 8.0 out of 10.
+- [Mega pricing and plans: the free 20 GB tier and the Pro plans](https://mega-sync.github.io/pricing.html): Mega pricing explained: the free 20 GB plan, Essential and Pro plan names, Pro I with 3 TB, renewal rules and which prices could not be confirmed.
+- [Mega desktop app system requirements for Windows, macOS and Linux](https://mega-sync.github.io/system-requirements.html): Mega desktop app system requirements: Windows 10 or Server 2019, macOS 10.15 Catalina, and Debian, Ubuntu, Mint, Fedora or CentOS on Linux.
+- [Mega desktop app latest version: 6.7.0.3 and the recent release notes](https://mega-sync.github.io/whats-new.html): The Mega desktop app latest version is 6.7.0.3 (26 October 2026). Summary of the release notes for 6.7, 6.6, 6.5, 6.4 and 6.3 from GitHub.
+
+## Compare
+- [Mega alternatives: six cloud storage services and how they differ](https://mega-sync.github.io/alternatives.html): Six Mega alternatives with free storage, encryption model and plan sizes from each vendor's own page: Proton Drive, pCloud, Sync.com, Dropbox and more.
+
+## Full text
+- [llms-full.txt](https://mega-sync.github.io/llms-full.txt): every guide on this site in plain markdown

@@ -1,0 +1,674 @@
+# Cloud Sync Handbook: all guides
+
+# Mega desktop app: what it syncs, what it costs and how to get it
+
+URL: https://mega-sync.github.io/index.html
+Updated: 2026-11-06
+
+The Mega desktop app keeps folders on a Windows, macOS or Linux computer in step with an encrypted Mega cloud drive. This handbook covers the current version, the free 20 GB plan, the paid plans, the requirements and the command line client.
+
+## Key facts
+
+- Current version: 6.7.0.3
+- Release tagged: 2026-10-26
+- Systems: Windows, macOS, Linux
+- Free plan: 20 GB, no credit card
+- Sync model: Two way
+- Checked: 2026-11-06
+
+The Mega desktop app is the official sync and backup client for Mega cloud storage on Windows, macOS and Linux. It mirrors chosen folders in both directions between the computer and the cloud drive. The current release is 6.7.0.3 from 26 October 2026, and a free account includes 20 GB of encrypted storage.
+
+## What the Mega desktop app does
+
+The Mega desktop app is the official sync and backup client for Mega cloud storage. You pair folders on the computer with folders in your cloud drive, and the app copies changes in both directions: a file renamed, moved or deleted on one side is renamed, moved or deleted on the other. Its Settings dialog has a Syncs tab and a separate Backups tab.
+The current release is 6.7.0.3, tagged on 26 October 2026 for Windows, macOS and Linux. If you only want the installer, go to the [download page](download.html), which lists the version, the supported systems and the install steps. If you are still deciding, the [review](review.html) weighs what Mega documents against what it leaves out.
+A free account comes with 20 GB of encrypted storage and needs no credit card. Paid plans are covered on the [pricing page](pricing.html). Before installing on an older computer, read the [system requirements](system-requirements.html): the app needs Windows 10, macOS 10.15 or a supported Linux distribution.
+Two more pages go further. One shows how to [schedule backups from the command line](megacmd-backup.html) with MEGAcmd, Mega's terminal client. The other lists [alternatives to Mega](alternatives.html) with their free storage and encryption models.
+
+## Pages in this handbook
+
+- Download: Current version, supported systems, what the free account includes and four install steps.
+- Review: What the app does, the limits Mega states and a score based on published facts.
+- Pricing: The free 20 GB plan, the paid plan names and which prices could be confirmed.
+- System requirements: Minimum Windows, macOS and Linux versions from Mega's README.
+- Latest version: Release notes for 6.7.0.3 and the version lines before it.
+- Command line backup: Scheduled backups and two way syncs with MEGAcmd.
+- Alternatives: Six other cloud storage services and how they differ.
+
+## Version and platforms at a glance
+
+| Item | Value |
+|---|---|
+| Current desktop version | 6.7.0.3, tagged 26 October 2026 |
+| Windows | Windows 10 or later, Windows Server 2019 or later |
+| macOS | 10.15 Catalina or later |
+| Linux, official support | Debian, Ubuntu, Mint, Fedora, CentOS |
+| Free storage | 20 GB |
+| Source code | Public on GitHub |
+
+## Where these facts come from
+
+Mega's own website could not be read automatically, so this handbook was compiled from material Mega publishes elsewhere: the README and release notes of its public MEGAsync repository on GitHub, the MEGAcmd user guide, and the text of Mega's own App Store listing. All were read on 6 November 2026. Where those sources are silent, the page says so instead of guessing. Web prices from Mega's pricing page were not read and are not quoted.
+
+> Twenty free gigabytes and a client for three operating systems. Know that a sync mirrors deletions before you rely on it.
+
+
+## FAQ
+
+**What is the Mega desktop app?**
+
+It is Mega's official client for Windows, macOS and Linux. It syncs chosen folders in both directions between a computer and a Mega cloud drive and also offers backups.
+
+**Is the Mega desktop app the same as MEGAsync?**
+
+Yes. MEGAsync is the name of the app's public source code repository on GitHub, which Mega describes as the development history of its official desktop app.
+
+**What is the latest version of the Mega desktop app?**
+
+Version 6.7.0.3, tagged on 26 October 2026 for Windows, macOS and Linux. It added a tool to capture, annotate and share screenshots.
+
+**How much free storage does Mega give?**
+
+Mega's own app listing states 20 GB of encrypted cloud storage on the free plan, with no credit card required.
+
+**Does Mega work on Linux?**
+
+Yes. Mega officially supports Debian, Ubuntu, Mint, Fedora and CentOS, and its README says prebuilt packages exist for other distributions.
+
+
+---
+
+# Download the Mega desktop app for Windows, macOS and Linux
+
+URL: https://mega-sync.github.io/download.html
+Updated: 2026-11-06
+
+The Mega desktop app download comes from Mega's own site and works with a free account. The current release is 6.7.0.3 for Windows 10 or later, macOS 10.15 or later and the main Linux distributions.
+
+## Key facts
+
+- Current version: 6.7.0.3
+- Release tagged: 2026-10-26
+- Systems: Windows, macOS, Linux
+- Free account: 20 GB storage
+- Installer size: Not stated in the sources read
+- Checked: 2026-11-06
+
+The Mega desktop app download is on Mega's official site for Windows 10 or later, macOS 10.15 or later and Linux. The current release is 6.7.0.3, tagged on 26 October 2026. It works with a free 20 GB account, and paid plans add storage.
+
+## What you get
+
+The Mega desktop app download gives you the official client that links folders on your computer to your Mega cloud drive. There is no separate app licence in the sources read for this page: the source code is public on GitHub, and what Mega sells is storage.
+- Two way sync: changes made on the computer or in the cloud are applied to the other side
+- A Backups tab next to the Syncs tab in the Settings dialog
+- A File Manager for the cloud drive, reworked in version 6.5.0
+- Screenshot capture, annotation and sharing, added in version 6.7.0.3
+
+## Current version and supported systems
+
+| Item | Value |
+|---|---|
+| Version | 6.7.0.3 |
+| Tagged on GitHub | 26 October 2026 |
+| Windows | 10 or later; Server 2019 or later |
+| macOS | 10.15 Catalina or later |
+| Linux | Debian, Ubuntu, Mint, Fedora, CentOS officially; prebuilt packages for others |
+| Installer size | Not stated in the README or release notes |
+The full list of minimum versions is on the [system requirements page](system-requirements.html). What changed in this build and the ones before it is on the [latest version page](whats-new.html).
+
+## Install in four steps
+
+1. Open the official download page: Use the button on this page. It leads to Mega's desktop page, which offers the build for Windows, macOS or Linux. Do not use mirror sites or repacked installers.
+2. Choose your system: On Linux, pick your distribution. Mega officially supports Debian, Ubuntu, Mint, Fedora and CentOS and lists prebuilt packages for other distributions on the same page.
+3. Run the installer and sign in: Sign in with your Mega account or create a free one, which includes 20 GB. Store your account recovery key somewhere safe; Mega presents it as the thing that keeps access to your data in your hands only.
+4. Add a sync or a backup: Open the Settings dialog and use the Syncs tab to pair a local folder with a cloud folder, or the Backups tab to back a folder up. Remember that a sync is two way and mirrors deletions.
+
+## Trial and licence terms
+
+There is no time limited trial to start. Mega's listing describes the free plan as 20 GB of encrypted storage with no credit card, and says you can upgrade at any time. Paid plan names, the storage stated for them and the renewal rules are on the [pricing page](pricing.html).
+Refund terms are not stated in the sources read for this handbook. Check the terms on Mega's site before paying for a plan.
+If you would rather script uploads and scheduled backups than use a window, Mega also publishes a terminal client. The [MEGAcmd backup guide](megacmd-backup.html) covers it.
+
+
+## FAQ
+
+**Is the Mega desktop app free to download?**
+
+The sources read for this page show no purchase price for the app itself. Mega sells storage plans, and the free plan includes 20 GB with no credit card.
+
+**Which version will I get?**
+
+The current release is 6.7.0.3, tagged on 26 October 2026 for Windows, macOS and Linux. Mega's download page serves the current build for the system you choose.
+
+**How big is the Mega installer?**
+
+Mega does not state the installer size in its README or release notes, so this page does not quote one. Your browser shows the size when the download starts.
+
+**Does the Mega desktop app run on Windows 7 or 8?**
+
+No. Mega's README sets Windows 10 as the minimum for the desktop app, and Windows Server 2019 for server systems.
+
+**Where should I download Mega from?**
+
+Only from Mega's official site, which is where the buttons on this page lead. This handbook does not host installers and does not link to other download sites.
+
+
+---
+
+# Mega desktop app review: a generous free plan and real Linux support, with a few gaps
+
+URL: https://mega-sync.github.io/review.html
+Updated: 2026-11-06
+
+This Mega desktop app review looks at what the vendor documents: two way sync, a backup mode, a free 20 GB account and official builds for three operating systems. It also lists what Mega does not state in the sources checked.
+
+## Key facts
+
+- Score: 8.0 / 10
+- Free plan: 20 GB, no credit card
+- Systems: Windows, macOS, Linux
+- Sync model: Two way, deletions included
+- Source code: Public on GitHub
+- Checked: 2026-11-06
+
+The Mega desktop app scores 8.0 out of 10 in this review. It pairs a free 20 GB encrypted account with two way sync and backups on Windows, macOS and Linux, and its source code is public. The cautions are that a sync mirrors deletions, paid plans carry a transfer quota, and hardware requirements and refund terms are not stated in the sources read.
+
+## Verdict (8.0/10)
+
+The Mega desktop app is easy to recommend to anyone who wants encrypted cloud storage on more than one operating system, Linux included, and wants to start without paying. The score is an editorial judgement of the documented features, platform coverage and release history. No lab tests were run for this review.
+Treat a sync as a convenience and not as your only copy, and read the plan terms on Mega's site before you pay, because refund terms are not stated in the sources checked here.
+
+## Sync: two way, deletions included
+
+The core of this Mega desktop app review is the sync engine, because that is what the app is for. Mega's README describes it plainly: files and subfolders are replicated in both directions, and renames, moves and deletions made on either side are applied to the other.
+That model suits people who work on several computers. It also means a sync is not a safety copy. Delete a folder by mistake on a laptop and the deletion reaches the cloud. Mega's app listing does say that previous versions of a file can be restored through file version history, and the command line guide notes that items removed by a sync go to a debris folder first, but neither replaces a real backup.
+
+## Backups: a separate tab in Settings
+
+The README describes the app as automated syncing and backup between your computers and the cloud drive, and the 6.5.0 release notes mention reworked Syncs and Backups tabs in the Settings dialog. So backup is a distinct function with its own tab.
+The public README does not explain in detail how a desktop backup behaves differently from a sync. The best documented backup behaviour is in Mega's terminal client, which creates dated copies on a schedule and keeps a set number of them. The [command line backup guide](megacmd-backup.html) walks through it.
+
+## Platforms
+
+Mega states minimums of Windows 10, Windows Server 2019 and macOS 10.15 Catalina. On Linux it officially supports Debian, Ubuntu, Mint, Fedora and CentOS, and says prebuilt packages exist for other distributions. Version 6.5.0 improved Wayland support, which matters on current Linux desktops.
+Three desktop systems with named Linux distributions is wider coverage than many storage services offer. The README gives no processor, memory or disk figures. The [download page](download.html) has the install steps.
+
+## Encryption and account security
+
+Mega's own app listing describes the service as zero knowledge encrypted, says the client code is open source and says an account recovery key ensures that only you can access your data. The desktop app's repository on GitHub is public, so the claim about open client code can be checked there.
+The practical consequence is that the recovery key is yours to keep safe. The listing also describes share links protected by a password and links with an expiry date, plus encrypted chat and calls, which are part of the service and not of the desktop client.
+
+## Release pace
+
+The GitHub release list shows steady work: version lines 6.3, 6.4, 6.5, 6.6 and 6.7 appear between May and late October, with 6.7.0.3 tagged on 26 October 2026. Recent notes cover clearer handling of stalled issues and name conflicts, a reworked File Manager and a screenshot tool.
+The notes are brief, and every release ends with an unspecified line about bug fixes and performance improvements. The [latest version page](whats-new.html) summarises each build.
+
+## Cost
+
+The free plan includes 20 GB and needs no credit card. Paid plans are named Essential, Pro Lite, Pro I, Pro II and Pro III; Mega's listing gives Pro I as 3 TB of storage with 3 TB of transfer. The transfer figure is a quota, so heavy downloading and sharing count against it. Details and the limits of what could be confirmed are on the [pricing page](pricing.html).
+If a transfer quota or the two way model does not suit you, the [alternatives page](alternatives.html) lists six other services.
+
+## Pros and cons
+
+Pros:
+- 20 GB of free encrypted storage with no credit card
+- Official desktop builds for Windows, macOS and Linux
+- Source code of the desktop app is public on GitHub
+- Both sync and backup, each with its own Settings tab
+- Regular releases through 2026
+- A command line client with scheduled backups, WebDAV and FTP serving
+Cons:
+- A sync mirrors deletions and is not a backup on its own
+- No processor, memory or disk requirements in the README
+- Needs Windows 10 or macOS 10.15 at minimum
+- Paid plans carry a transfer quota
+- Refund terms are not stated in the sources read
+- Release notes give little detail on fixes
+
+
+## FAQ
+
+**Is the Mega desktop app safe?**
+
+Mega's listing describes zero knowledge encryption and open source client code, and the desktop app's source is public on GitHub. Download it only from Mega's official site and keep your recovery key safe.
+
+**Does Mega sync both ways?**
+
+Yes. The README states that files and subfolders are replicated in both directions, and that renames, moves and deletions on one side are applied to the other.
+
+**Is a Mega sync the same as a backup?**
+
+No. A sync mirrors every change, including deletions. The app has a separate Backups tab, and file version history can restore earlier versions of a file.
+
+**Does Mega keep old versions of files?**
+
+Mega's app listing says previous versions can be restored with file version history. The listing does not state how long versions are kept.
+
+**Is the Mega desktop app open source?**
+
+Its source code is published in the MEGAsync repository on GitHub, with the licence in a file named LICENCE.md. Mega's listing also describes its client code as open source.
+
+**Was the app tested for this review?**
+
+No. This review is based on Mega's README, release notes, command line guide and app listing, read on 6 November 2026. The score reflects documented facts, not lab tests.
+
+
+---
+
+# Mega pricing and plans: the free 20 GB tier and the Pro plans
+
+URL: https://mega-sync.github.io/pricing.html
+Updated: 2026-11-06
+
+Mega pricing starts with a free 20 GB account. Paid plans are named Essential, Pro Lite, Pro I, Pro II and Pro III. This page shows what Mega's published listing says about them and marks what could not be confirmed.
+
+## Key facts
+
+- Free plan: 20 GB, no credit card
+- Paid plans: Essential, Pro Lite, Pro I, Pro II, Pro III
+- Pro I: 3 TB storage, 3 TB transfer
+- Billing: Monthly or yearly, renews automatically
+- Refund terms: Not stated in the listing
+- Checked: 2026-11-06
+
+Mega pricing has a free tier with 20 GB of encrypted storage and no credit card. Paid plans are Essential, Pro Lite, Pro I, Pro II and Pro III; Pro I is listed with 3 TB of storage and 3 TB of transfer. The dollar figures on this page are Apple in app prices from Mega's US App Store listing, because Mega's web pricing page could not be read on the check date.
+
+## The free plan
+
+Mega pricing begins at zero. Mega's own app listing describes the free plan as 20 GB of encrypted cloud storage with no credit card required, and says you can upgrade at any time for more space.
+The same account signs in to the desktop app, so you can install the client and set up a sync before deciding on a paid plan. The [download page](download.html) lists the current version and the install steps.
+
+## Paid plans
+
+The table lists the plans named in Mega's US App Store listing, read on 6 November 2026. The price column is the Apple in app purchase price in US dollars. Prices on Mega's website can differ and were not read.
+| Plan | Storage and transfer stated | Monthly, in app | Yearly, in app |
+|---|---|---|---|
+| Free | 20 GB storage | $0 | $0 |
+| Essential | Not stated in the listing | Not listed | $59.99 |
+| Pro Lite | Not stated in the listing | $6.49 | $79.99 |
+| Pro I | 3 TB storage, 3 TB transfer | $12.49 | $124.99 |
+| Pro II | Not stated in the listing | $24.99 | $249.99 |
+| Pro III | Not stated in the listing | $37.49 | $374.99 |
+Only Pro I carries storage and transfer figures in the listing. For the other tiers, read the sizes on Mega's pricing page before you choose. Business and team plans do not appear in the listing and are not covered here.
+
+## Monthly or yearly
+
+On the listed in app prices, a year of Pro I costs $124.99 against $149.88 for twelve monthly payments, a difference of $24.89. Pro II is $249.99 against $299.88, and Pro III is $374.99 against $449.88. In each case the yearly price is close to ten monthly payments.
+Pro Lite is the exception: the listed yearly price of $79.99 is higher than twelve monthly payments of $6.49, which come to $77.88. That suggests the in app price list is not fully up to date, so treat every figure in the table as a guide and confirm the amount on Mega's site at checkout.
+
+## Renewal and cancelling
+
+The listing states that subscriptions renew automatically for periods of the same length and at the same price as the first period. For purchases made through Apple, automatic renewal has to be switched off in the Apple account settings at least 24 hours before the next payment is due.
+Those rules are for App Store purchases. If you buy on Mega's website, the renewal and cancellation steps are the ones in your Mega account and in Mega's terms.
+
+## Refunds and discounts
+
+The listing does not state refund terms, and Mega's terms page was not read for this handbook. Do not assume a money back period; check the terms on Mega's site before paying.
+No coupon codes appear in any source read for this page. The documented way to pay less is yearly billing on Pro I, Pro II or Pro III.
+
+## Which plan to look at
+
+Start on the free plan and measure what you need to store. If the total fits in 20 GB, there is nothing to buy. If you need terabytes, Pro I is the one tier with a published size in the listing: 3 TB of storage and 3 TB of transfer.
+The [review](review.html) covers how the sync and backup functions behave, and the [alternatives page](alternatives.html) compares free tiers and encryption models of six other services. If you are on an older computer, check the [system requirements](system-requirements.html) before paying for storage you plan to sync.
+
+
+## FAQ
+
+**Is Mega free?**
+
+Yes. Mega's listing describes a free plan with 20 GB of encrypted cloud storage and no credit card required. You can upgrade later for more space.
+
+**How much does Mega Pro I cost?**
+
+Mega's US App Store listing shows Pro I at $12.49 a month or $124.99 a year as Apple in app prices, with 3 TB of storage and 3 TB of transfer. The price on Mega's website can differ and was not read for this page.
+
+**Does a Mega subscription renew automatically?**
+
+Yes. The listing states that subscriptions renew for periods of the same length at the same price. For App Store purchases, turn off renewal in your Apple account settings at least 24 hours before the next payment.
+
+**Can I get a refund from Mega?**
+
+Refund terms are not stated in Mega's app listing, and Mega's terms page was not read for this handbook. Check the terms on Mega's site before you pay.
+
+**Is there a Mega coupon or discount code?**
+
+None appears in the sources read for this page. Yearly billing on Pro I, Pro II and Pro III is listed at about the price of ten monthly payments.
+
+**What is the transfer quota on Mega?**
+
+The listing gives Pro I a transfer figure of 3 TB next to its 3 TB of storage. Transfer figures for the other plans are not stated in the listing.
+
+
+---
+
+# Mega desktop app system requirements for Windows, macOS and Linux
+
+URL: https://mega-sync.github.io/system-requirements.html
+Updated: 2026-11-06
+
+The Mega desktop app system requirements are short: Windows 10, macOS 10.15 Catalina or one of five officially supported Linux distributions. Mega's README gives operating system minimums only.
+
+## Key facts
+
+- Windows: 10 or later
+- Windows Server: 2019 or later
+- macOS: 10.15 Catalina or later
+- Linux: Debian, Ubuntu, Mint, Fedora, CentOS
+- CPU, RAM, disk: Not stated by Mega
+- Checked: 2026-11-06
+
+The Mega desktop app system requirements are Windows 10 or later, Windows Server 2019 or later, macOS 10.15 Catalina or later, or Linux. On Linux, Mega officially supports Debian, Ubuntu, Mint, Fedora and CentOS and offers prebuilt packages for other distributions. Mega's README states no processor, memory or disk space figures.
+
+## Requirements at a glance
+
+The Mega desktop app system requirements below come from the README of Mega's public desktop app repository, read on 6 November 2026. They apply to the current release line.
+| System | Minimum |
+|---|---|
+| Windows | Windows 10 |
+| Windows Server | Windows Server 2019 |
+| macOS | 10.15 Catalina |
+| Linux, official support | Debian, Ubuntu, Mint, Fedora, CentOS |
+| Linux, other distributions | Prebuilt packages listed on Mega's download page |
+| Processor, memory, disk space | Not stated |
+
+## Windows
+
+Windows 10 is the minimum for desktop systems, so Windows 11 is covered and Windows 7, 8 and 8.1 are not. For servers the minimum is Windows Server 2019.
+If you run an older Windows version, the current installer is not meant for it. The sources read here do not mention legacy builds for older systems.
+
+## macOS
+
+The minimum is macOS 10.15 Catalina. The README does not list processor types, so it does not say anything specific about Intel or Apple silicon Macs.
+Mega tags a separate macOS build for each release, and the current one is 6.7.0.3 from 26 October 2026. The [latest version page](whats-new.html) lists what each build changed.
+
+## Linux
+
+Mega names two families as officially supported: Debian based systems, which are Debian, Ubuntu and Mint, and Red Hat based systems, which are Fedora and CentOS. For other distributions, the README says prebuilt packages are available and listed on Mega's download page.
+The README does not give minimum release numbers for each distribution; the download page shows which releases have a package. Release 6.5.0 improved Wayland support, which is relevant if your desktop session no longer uses X11. When you are ready, the [download page](download.html) explains how to pick the right package.
+
+## What Mega does not state
+
+The README gives no minimum processor, no memory figure and no disk space figure, and neither it nor the release notes state the installer size. This handbook does not fill those gaps with estimates.
+Plan your disk space around your data instead. A two way sync keeps a full local copy of every synced folder, so the local drive needs at least as much free space as the cloud folders you choose to sync. The [review](review.html) explains the sync model and its risks.
+
+## Other Mega clients
+
+Mega also publishes MEGAcmd, a terminal client for Linux, macOS and Windows, with packages for QNAP and Synology NAS systems. Its guide notes that mounting cloud folders through FUSE works on Linux and Windows but not on macOS. The [MEGAcmd backup guide](megacmd-backup.html) shows how to use it for scheduled backups.
+On phones, Mega's App Store listing states that the iPhone app requires iOS 17.0 or later. Requirements for the Android app were not read for this page.
+
+## FAQ
+
+**Does the Mega desktop app work on Windows 11?**
+
+Yes. The stated minimum is Windows 10, and Windows 11 is newer than that minimum. Mega tags a Windows build for every release.
+
+**Does the Mega desktop app work on Windows 7?**
+
+No. Mega's README sets Windows 10 as the minimum, so Windows 7, 8 and 8.1 are below the supported line for the current release.
+
+**Which macOS version does Mega need?**
+
+macOS 10.15 Catalina or later. The README does not list processor requirements for Macs.
+
+**Which Linux distributions does Mega support?**
+
+Debian, Ubuntu, Mint, Fedora and CentOS are officially supported. Mega's README says prebuilt packages for other distributions are listed on its download page.
+
+**How much RAM does the Mega desktop app need?**
+
+Mega does not state a memory requirement in its README. Only operating system minimums are given.
+
+**Can I run Mega on a NAS?**
+
+Not the desktop app, but Mega's terminal client MEGAcmd has packages for QNAP and Synology systems, installed from the App Center and Package Center.
+
+
+---
+
+# Mega desktop app latest version: 6.7.0.3 and the recent release notes
+
+URL: https://mega-sync.github.io/whats-new.html
+Updated: 2026-11-06
+
+The Mega desktop app latest version is 6.7.0.3, tagged on 26 October 2026. This page summarises the release notes Mega publishes on GitHub for that build and for the version lines before it.
+
+## Key facts
+
+- Latest version: 6.7.0.3
+- Tagged: 2026-10-26
+- Platforms: Windows, macOS, Linux
+- Headline change: Screenshot capture and sharing
+- Previous line: 6.6.2.0, 2026-09-21
+- Checked: 2026-11-06
+
+The Mega desktop app latest version is 6.7.0.3, tagged on 26 October 2026 for Windows, macOS and Linux. It adds a tool to capture, annotate and share screenshots and asks for confirmation before a password change is applied. The previous line, 6.6, improved how stalled sync issues and name conflicts are handled.
+
+## What is new in 6.7.0.3
+
+The Mega desktop app latest version is 6.7.0.3. Mega tagged builds for Windows, macOS and Linux on 26 October 2026, and the release notes list three items.
+- New: capture a screenshot, annotate it and share it straight from the desktop
+- Changing your account password now asks for confirmation before the change is applied
+- Bug fixes and performance improvements, with no further detail given
+If you have an older build, the [download page](download.html) leads to the current installer on Mega's site.
+
+## Release history
+
+Dates with a year come from the repository's tag list. For the older entries, GitHub's release list showed the day and month only.
+| Version | Tagged | Platforms on the release | Main changes |
+|---|---|---|---|
+| 6.7.0.3 | 26 October 2026 | Windows, macOS, Linux | Screenshot capture, annotation and sharing; password change confirmation |
+| 6.6.2.0 | 21 September 2026 | Windows, macOS, Linux | Clearer stalled issue and name conflict handling; cleaner install and update; dialog fixes |
+| 6.6.1.0 | 3 September 2026 | Windows, macOS | Same notes as 6.6.2.0 |
+| 6.6.0.2 | 3 September 2026 | Windows, macOS | Same notes as 6.6.2.0 |
+| 6.5.1.0 | 30 July | Windows, macOS, Linux | Hotfix for SDK changes on top of 6.5.0 |
+| 6.5.0.2 | 22 July | Windows, macOS | Reworked File Manager; reworked Syncs and Backups tabs; better Wayland support |
+| 6.4.0.2 | 5 June | Windows, macOS, Linux | Easier renaming of upload conflicts and duplicates; clearer dialogs |
+| 6.3.1.0 | 20 May | Windows, macOS | SDK update over 6.3.0, which improved conflict resolution and device name handling |
+
+## Changes that matter for sync and backup
+
+Most of the recent work is about conflicts, which is where two way sync gets difficult. Version 6.3.0 improved conflict resolution, 6.4.0.2 made it easier to rename upload conflicts and duplicate items in the same folder, and the 6.6 line made stalled issues and name conflicts clearer to handle.
+Version 6.5.0 reworked the Syncs and Backups tabs in the Settings dialog and the File Manager. The 6.6 line followed with fixes across the sync, backup and transfer dialogs. The [review](review.html) explains what the sync and backup functions do and where the limits are.
+
+## Install and update changes
+
+The 6.6 release notes mention an improved install and update process with better cleanup of outdated components. The notes do not describe how updates are delivered on each system, so this page does not either.
+On Linux, 6.5.0 improved Wayland support. Not every point release lists a Linux build: 6.6.0.2 and 6.6.1.0 list Windows and macOS only, and 6.6.2.0 lists all three. Minimum operating system versions are on the [system requirements page](system-requirements.html).
+
+## What the release notes leave out
+
+Each release closes with a general line about bug fixes and performance improvements. The notes do not list individual fixes, do not give installer sizes and do not mention known issues. For specific bugs, Mega's README points to the issue tracker of the public repository.
+Release notes cover the app only. Storage plans and what could be confirmed about their prices are on the [pricing page](pricing.html).
+
+
+## FAQ
+
+**What is the latest version of the Mega desktop app?**
+
+Version 6.7.0.3. Mega tagged it on 26 October 2026 for Windows, macOS and Linux.
+
+**What did Mega 6.7 add?**
+
+A tool to capture, annotate and share screenshots from the desktop, and a confirmation step before a password change is applied. The notes also mention unspecified bug fixes and performance improvements.
+
+**When was the previous version released?**
+
+Version 6.6.2.0 was tagged on 21 September 2026 for Windows, macOS and Linux. It improved the handling of stalled issues and name conflicts and cleaned up the install and update process.
+
+**Where does Mega publish release notes for the desktop app?**
+
+In the releases section of its public MEGAsync repository on GitHub. Each release has separate tags for Windows, macOS and, for most versions, Linux.
+
+**Does the latest version support Wayland on Linux?**
+
+Wayland support was improved in version 6.5.0, and later builds include that work. The release notes do not go into detail on what changed.
+
+
+---
+
+# MEGAcmd backup and sync: schedule Mega backups from the command line
+
+URL: https://mega-sync.github.io/megacmd-backup.html
+Updated: 2026-11-06
+
+A MEGAcmd backup copies a local folder to your Mega cloud drive on a schedule and keeps a set number of dated copies. This guide follows Mega's own user guide for MEGAcmd 2.7.0 and uses its command names.
+
+## Key facts
+
+- Tool: MEGAcmd, Mega's terminal client
+- Guide version: 2.7.0
+- Systems: Linux, macOS, Windows, QNAP, Synology
+- Backup options: --period and --num-backups
+- Sync model: Two way
+- Checked: 2026-11-06
+
+A MEGAcmd backup is set up with one command: backup, followed by the local folder, the cloud folder, a period and the number of copies to keep. The first run starts at once and later runs follow the schedule, each creating a dated copy. Backups and syncs are tied to your session, so logging out removes them.
+
+## Before you start
+
+MEGAcmd backup and sync commands run in Mega's terminal client, a separate program from the desktop app. It has an interactive shell and scriptable commands that start with the prefix mega, such as mega-put and mega-export, and a background server that starts on demand.
+You need a Mega account and enough free storage for the copies you plan to keep. The [pricing page](pricing.html) covers the free 20 GB plan and the paid tiers. If you would rather use windows and menus, the desktop app does the same job, and the [download page](download.html) explains how to get it.
+- Linux: commands are installed to /usr/bin and the interactive shell is mega-cmd
+- macOS: install from the DMG, then add /Applications/MEGAcmd.app/Contents/MacOS to your PATH to use the commands in Terminal
+- Windows: the shell is MEGAcmdShell.exe; for scripts, add %LOCALAPPDATA%\MEGAcmd to your PATH
+- QNAP and Synology: install the package from the App Center or Package Center and enable home folders so the local cache is kept
+
+## Set up a scheduled backup
+
+1. Log in: In the shell, type login followed by your email and password. If the account uses two factor authentication, add the option --auth-code=XXXX with the current code. Logging in downloads your account structure into a local cache.
+2. Check your space: Run df -h to see storage figures, or whoami -l for account details and open sessions. Make sure the copies you plan to keep will fit.
+3. Create the backup: Use the form from Mega's guide: backup /path/mega/folder /remote/path --period="0 0 4 * * *" --num-backups=10. The guide says this example backs up immediately, then every day at 4am, and keeps the 10 most recent copies.
+4. Read the history: Run backup -h to list past runs. Each run creates a dated copy in the cloud folder, with a name that ends in a timestamp, and the history shows its status and file and folder counts.
+5. Add a sync if you want one: For a two way mirror, use sync /path/to/local/folder /folder/in/mega. Additions and deletions on either side are applied to the other. You can create several sync pairs.
+6. Stay logged in: Do not log out when you finish. Logging out clears the local cache and wipes sync, backup and WebDAV configurations. The option --keep-session on logout keeps the session so it is restored the next time the program runs.
+
+## Backup or sync
+
+The two commands answer different needs. Use a backup for folders you want to be able to roll back, and a sync for folders you edit on more than one device.
+|  | backup | sync |
+|---|---|---|
+| Direction | Local folder to cloud | Both directions |
+| Schedule | Set with --period | Continuous |
+| History | Dated copies, count set with --num-backups | Current state only |
+| Deletions | Earlier copies remain until rotated out | Mirrored to the other side |
+| Removed files | Not applicable | Moved to a debris folder first |
+The guide notes that files removed by a sync go to a hidden debris folder inside the local sync folder, or to a SyncDebris folder in the cloud rubbish bin. Two devices can sync the same cloud folder; changes travel through your account, not directly between the devices.
+
+## Other useful commands
+
+- put uploads files or folders to a cloud folder; get downloads a cloud path or a public link
+- export -a creates a share link and export -d disables it; --expire sets a time limit and --password protects the link
+- webdav serves a cloud location over WebDAV on the local machine at a port you choose; ftp does the same over FTP
+- transfers lists running uploads and downloads; -p pauses and -c cancels one by its tag
+- speedlimit shows or changes upload and download limits
+- du prints the size of cloud files and folders
+
+## Limits to know
+
+The example period string has six fields separated by spaces. Check the built in help for the backup command for the exact format before writing your own schedule. In bash, an exclamation mark inside a link can trigger an event not found error, so escape it with a backslash.
+Mounting cloud folders through FUSE works on Linux and Windows but not on macOS. Supported systems for the desktop app are a separate list, on the [system requirements page](system-requirements.html). If you want a terminal client from a different provider, the [alternatives page](alternatives.html) notes which services list one.
+
+
+## FAQ
+
+**What is MEGAcmd?**
+
+MEGAcmd is Mega's command line client for its cloud storage. It has an interactive shell, scriptable commands and a background server, and it runs on Linux, macOS, Windows and some NAS systems.
+
+**How do I schedule a backup with MEGAcmd?**
+
+Use the backup command with a local folder, a cloud folder, a period and a copy count, for example --period="0 0 4 * * *" --num-backups=10. Mega's guide says that example runs at once, then daily at 4am, and keeps the 10 most recent copies.
+
+**Why did my MEGAcmd backups disappear?**
+
+Backups, syncs and WebDAV setups are tied to the session. Logging out wipes them, so stay logged in or log out with the --keep-session option.
+
+**Is a MEGAcmd sync two way?**
+
+Yes. Additions and deletions in either the local folder or the cloud folder are applied to the other. Removed files are moved to a debris folder first.
+
+**Can MEGAcmd serve my files over WebDAV?**
+
+Yes. The webdav command serves a cloud location on the local machine at a chosen port, with an option for TLS. An ftp command works the same way.
+
+**Does MEGAcmd work on a NAS?**
+
+Mega's guide describes packages for QNAP and Synology. On both, home folders must be enabled so the local cache is preserved.
+
+
+---
+
+# Mega alternatives: six cloud storage services and how they differ
+
+URL: https://mega-sync.github.io/alternatives.html
+Updated: 2026-11-06
+
+These Mega alternatives are six cloud storage services with their own desktop sync. For each one, the free storage, the encryption model and the plan sizes come from that vendor's own plans page.
+
+## Key facts
+
+- Mega free plan: 20 GB
+- Largest free tier listed: Mega, 20 GB
+- Next largest: Google Drive, 15 GB
+- End to end by default: Proton Drive, Sync.com, Internxt
+- Linux desktop app listed: Mega, Internxt
+- Checked: 2026-11-06
+
+The closest Mega alternatives are Proton Drive, Sync.com and Internxt, which also describe their storage as end to end or zero knowledge encrypted. pCloud, Dropbox and Google Drive are mainstream options with different encryption models. None of the six lists a free tier larger than Mega's 20 GB.
+
+## How this list was built
+
+These Mega alternatives were chosen because each offers cloud storage with a desktop client, which is the job the Mega desktop app does. The facts for each service were read on its own plans page on 6 November 2026. Some pages showed prices in euros and some in dollars; the currency is kept as shown. Nothing here is based on tests.
+For Mega's side of the comparison, see the [review](review.html) for features and limits and the [pricing page](pricing.html) for plans.
+
+## Comparison table
+
+| Service | Free storage | Encryption as described | Plan sizes listed |
+|---|---|---|---|
+| Mega | 20 GB | Zero knowledge, client code open | Pro I: 3 TB |
+| Proton Drive | 5 GB | End to end | Drive Plus: 200 GB |
+| pCloud | Not stated on the plans page | TLS/SSL in transit, 256 bit AES | 500 GB, 2 TB, 10 TB lifetime |
+| Sync.com | Not stated on the teams page | End to end | 1 TB, 2 TB, 10 TB per user |
+| Dropbox | 2 GB | 256 bit AES and SSL/TLS; end to end in Advanced only | Plus for one person; team plans |
+| Google Drive | 15 GB | Not covered on the plans page | 100 GB, 2 TB, 5 TB |
+| Internxt | 1 GB | Zero knowledge, AES 256 before upload | 1 TB, 2 TB, 5 TB |
+
+## Privacy first alternatives
+
+Proton Drive gives 5 GB free and lists Drive Plus with 200 GB at $4.99 a month. Its page describes end to end encryption with a design in which Proton itself cannot view files, and lists apps for Windows and macOS plus a command line client. It suits people who want a small, private drive.
+Sync.com describes its platform as end to end encrypted. The page read for this list covers team plans of 1 TB, 2 TB and 10 TB per user with a three user minimum; plans for individuals are on a separate page that was not read.
+Internxt gives 1 GB free and sells Essential, Premium and Ultimate plans with 1 TB, 2 TB and 5 TB. It describes zero knowledge AES 256 encryption applied on the device before upload, lists post quantum encryption as a feature, and names Linux, Windows and macOS for its desktop app. It also offers lifetime plans.
+
+## Mainstream alternatives
+
+pCloud is known for lifetime plans: 500 GB, 2 TB and 10 TB for a one time payment, shown at 219, 499 and 1499 euros on the day of checking, each marked as reduced from a higher list price. Its plans page describes protection in transit and 256 bit AES encryption.
+Dropbox Basic is free with 2 GB. Plus is the paid plan for one person, shown at 9.99 euros a month. The plans page lists end to end encryption only in the Advanced team plan.
+Google Drive storage is sold through Google One. Every Google account has 15 GB free, the Basic plan adds 100 GB at 1.99 euros a month, and larger tiers of 2 TB and 5 TB are listed. The plans page does not discuss end to end encryption.
+
+## When Mega is still the better fit
+
+Mega keeps three advantages in this group on published facts: the largest free tier at 20 GB, a zero knowledge model on every plan including the free one, and an officially supported Linux desktop client for five distributions. Its desktop app source code is public as well.
+If those points matter to you, start with the free plan. The [download page](download.html) has the current version and install steps, and the [system requirements](system-requirements.html) list the minimum Windows, macOS and Linux versions.
+
+
+## FAQ
+
+**What is the best alternative to Mega?**
+
+For a similar privacy model, Proton Drive, Sync.com and Internxt all describe end to end or zero knowledge encryption. Which one fits depends on how much storage you need and which desktop systems you use.
+
+**Which Mega alternative has the most free storage?**
+
+Among the six services listed, Google Drive has the largest free tier at 15 GB. Mega's own free plan is larger at 20 GB.
+
+**Is there a Mega alternative with a lifetime plan?**
+
+Yes. pCloud lists lifetime plans of 500 GB, 2 TB and 10 TB, and Internxt also offers lifetime plans. Mega's listing shows monthly and yearly billing only.
+
+**Which alternatives have a Linux desktop app?**
+
+Internxt names Linux, Windows and macOS for its desktop app. Proton Drive's page lists Windows, macOS and a command line client.
+
+**Is Dropbox end to end encrypted like Mega?**
+
+Not on every plan. Dropbox's plans page lists 256 bit AES and SSL/TLS encryption on all plans and end to end encryption only in its Advanced team plan.
